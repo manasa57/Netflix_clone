@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Netflix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="profile.png" alt="User Profile">
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="hero.jpg" alt="Featured Content">
+            <div class="hero-text">
+                <h1>Featured Movie Title</h1>
+                <p>Watch the latest blockbuster now!</p>
+                <button>Watch Now</button>
+                <button>More Info</button>
+            </div>
+        </div>
+        <div class="content-row">
+            <h2>Trending Now</h2>
+            <div class="content-grid" id="trending">
+                <!-- JavaScript will populate this -->
+            </div>
+            <button class="scroll-button" id="trending-scroll-button">&rarr;</button>
+        </div>
+        <div class="content-row">
+            <h2>Top Picks for You</h2>
+            <div class="content-grid" id="top-picks">
+                <!-- JavaScript will populate this -->
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
